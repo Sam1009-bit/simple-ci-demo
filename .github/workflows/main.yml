@@ -1,9 +1,7 @@
 name:C++ CI Pipeline
-
 on:[push]
-
 jobs:
-build:
+  build:
 runs-on: ubuntu-lastest
 
 steps:
