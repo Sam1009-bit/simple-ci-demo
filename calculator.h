@@ -1,7 +1,11 @@
-#ifndef CALCULATOR_H
-#define CALCULATOR_H
+#include "calculator.h";
 
-int add(int a, int b);
-int subtract(int a, int b);
+  int add(int a, int b) 
+  {
+    return a + b;
+  }
 
-#endif
+  int subtract(int a, int b)
+  {
+    return a - b;
+  }
